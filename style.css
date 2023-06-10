@@ -1,0 +1,33 @@
+h1{
+    color: rgb(99, 42, 153);
+    border: 6px solid violet;
+    text-align: center;
+    width: fit-content;
+}
+a{
+    text-decoration:none;
+}
+a:hover{
+    color: cyan;
+    background-color: violet;
+    transform: 10s;
+}
+.menu_main > li{
+    display: inline-block;
+    width: 150px;
+    background-color: gold;
+    font-size: 30px;
+    text-align: center;
+    padding: auto;
+    vertical-align: top;
+}
+.menu_top{
+    width: fit-content;
+    margin: 0 auto;
+}
+.menu_main > li:hover{
+    display: block;
+}
+.menu_main{
+    font-size: 0;
+}
